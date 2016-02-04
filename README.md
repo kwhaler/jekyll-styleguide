@@ -15,12 +15,10 @@ It contains code for making swatches as well as starting points for:
 
 Grab a copy and extend as you need.
 
-You can find the source code for the Jekyll Styleguide at: [https://github.com/kwhaler/jekyll-styleguide](https://github.com/kwhaler/jekyll-styleguide)
-
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
 ## Credits
 
-Made by [Ken](kwhaler.com)
+Made by [Ken](http://kwhaler.com)
 
 
