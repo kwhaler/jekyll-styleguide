@@ -1,0 +1,11 @@
+- name: "Green"
+  value: "#A6D53A"
+
+- name: "Orange"
+  value: "#FC9430"
+
+- name: "Blue"
+  value: "#3BBBF3"
+
+- name: "Gray"
+  value: "#D7D7D7"

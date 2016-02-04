@@ -1,0 +1,60 @@
+// Sections
+.styleguide-section {
+	padding: 50px 0;
+
+	> h2 {
+		border-bottom: solid 1px #eee;
+	}
+
+	//  Colors
+	.colors {
+	    margin-bottom: 15px;
+	}
+	.color-module {
+	    width:165px;
+	    height:125px;
+	    font-size: 13px;
+	    border: solid 1px #ddd;
+	    overflow: hidden;
+	    position: relative;
+	    margin-right: 15px; 
+	    float: left;
+	    .color-module-label {
+	        position: absolute;
+	        bottom: 0;
+	        right:0;
+	        left:0;
+	        padding: 4px 8px;
+	        background: #f9f9f9;
+	        color: #333;
+	    }
+	    .color-module-name {
+	    	font-weight: bold;
+	    }
+	    .color-module-value {
+	    	float: right;
+	    }
+	}
+	.colors:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	// Typography
+	.typography-module {
+		border-bottom: solid 1px #eee;
+		margin-top: 15px;
+		.typography-name {
+			float: left;
+		}
+		.typography-value {
+			float: right;
+		}
+	}
+	.typography-module:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}

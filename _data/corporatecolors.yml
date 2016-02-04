@@ -1,0 +1,8 @@
+- name: "Blue"
+  value: "#05B0E6"
+
+- name: "Violet"
+  value: "#181548"
+
+- name: "Gray"
+  value: "#4A4A4A"

@@ -1,0 +1,174 @@
+---
+layout: default
+---
+
+<section id="intro" class="styleguide-section">
+
+  <h1>Styleguide</h1>
+  
+  <p>A styleguide is a resource for designers, product managers, and developers, providing a common language around UI patterns. Use it to maintain modular front-end code and visual consistency across the web app. This one is made with Jekyll. Add Foundation or Bootstrap and rock it!</p>
+
+  <nav>
+    <p>In this guide:</p>
+    <ul>
+      <li><a href="#colors">Colors</a></li>
+      <li><a href="#typography">Typography</a></li>
+      <li><a href="#tables">Tables</a></li>
+      <li><a href="#lists">Lists</a></li>
+      <li><a href="#forms">Forms</a></li>
+    </ul>
+  </nav>
+
+</section>
+
+<section id="colors" class="styleguide-section">
+  
+  <h2>Color</h2>
+
+  <div class="colors">
+    
+    <h3>Corporate Colors</h3>
+    
+    {% for color in site.data.corporatecolors %}
+    <div class="color-module" style="background-color:{{ color.value }};">
+      <div class="color-module-label">
+        <span class="color-module-name">{{ color.name }}</span>
+        <span class="color-module-value">{{ color.value }}</span>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+  <div class="colors">  
+
+    <h3>UI Colors</h3>
+    
+    {% for color in site.data.uicolors %}
+    <div class="color-module" style="background-color:{{ color.value }};">
+      <div class="color-module-label">
+        <span class="color-module-name">{{ color.name }}</span>
+        <span class="color-module-value">{{ color.value }}</span>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+</section>
+
+<section id="typography" class="styleguide-section">
+
+  <h2>Typography</h2>
+
+  <p>Description</p>
+
+  <div class="typography-module">
+    <div class="typography-name"><h1>h1. Heading</h1></div>
+    <div class="typography-value">Normal 24px/36px</div>
+  </div>
+  
+  <div class="typography-module">
+    <div class="typography-name"><h2>h2. Heading</h2></div>
+    <div class="typography-value">Normal 24px/36px</div>
+  </div>
+
+  <div class="typography-module">
+    <div class="typography-name"><h3>h3. Heading</h3></div>
+    <div class="typography-value">Normal 18px/28px</div>
+  </div>
+
+  <div class="typography-module">
+    <div class="typography-name"><h4>h4. Heading</h4></div>
+    <div class="typography-value">Normal 16px/24px</div>
+  </div>
+
+  <div class="typography-module">
+    <div class="typography-name"><h5>h5. Heading</h5></div>
+    <div class="typography-value">Normal 13px/19px</div>
+  </div>
+
+  <div class="typography-module">
+    <div class="typography-name"><p>Body copy</p></div>
+    <div class="typography-value">Normal 16px/24px</div>
+  </div>
+
+</section>
+
+<section id="tables" class="styleguide-section">
+
+  <h2>Tables</h2>
+
+  <table>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>James</td>
+      <td>Jammerson</td>
+      <td><a href="#">james@domain.com</a></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Christian</td>
+      <td>MacBride</td>
+      <td><a href="#">christian@domain.com</a></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Milt</td>
+      <td>Hinton</td>
+      <td><a href="#">milt@domain.com</a></td>
+    </tr>
+  </table>
+  
+</section>
+
+<section id="lists" class="styleguide-section">
+
+  <h2>Lists</h2>
+
+  <h3>Unordered list</h3>
+
+  <ul>
+    <li>Unordered list item</li>
+    <li>Unordered list item</li>
+    <li>Unordered list item</li>
+    <li>Unordered list item</li>
+    <li>Unordered list item</li>
+  </ul>
+
+  <h3>Ordered list</h3>
+
+  <ol>
+    <li>Ordered list item</li>
+    <li>Ordered list item</li>
+    <li>Ordered list item</li>
+    <li>Ordered list item</li>
+    <li>Ordered list item</li>
+  </ol>
+
+</section>
+
+<section id="forms" class="styleguide-section">
+
+  <h2>Forms</h2>
+
+  <form id="app-login" action="">
+  <fieldset>
+  <legend>Login Details</legend>
+  <div>
+
+   <label for="user-name">User name:</label>
+
+   <input name="user-name" type="email" placeholder="Your username is your email address" required autofocus>
+
+   <button>Submit</button>
+
+  </div>
+    
+</section>
