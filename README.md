@@ -13,7 +13,7 @@ It contains code for making swatches as well as starting points for:
 - lists
 - forms
 
-![screenshot]({{ site.baseurl }}/jekyll-styleguide.png)
+![screenshot](jekyll-styleguide.png)
 
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
